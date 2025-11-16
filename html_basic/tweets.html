@@ -6,47 +6,49 @@
 </head>
 <body>
 
-    <h1>My Embedded Tweet</h1>
-    <p>
-        This page contains an embedded tweet fetched directly from Twitter using their official embed code.
-        Embedding tweets allows you to add interactive social content to your webpage easily.
-    </p>
+<header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+</header>
 
-    <h2>Why Embed Tweets?</h2>
-    <p>
-        Tweets provide real-time updates from people, brands, and organizations. When you embed one, it stays 
-        interactive and clickable, just like on the Twitter platform.
-    </p>
+<main>
 
-    <h3>Example Tweet</h3>
-    <p>
-        Below is an example of a real tweet embedded using Twitter’s standard HTML script.
-    </p>
+    <article>
+        <h1>My Embedded Tweet</h1>
+        <p>This page contains an embedded tweet using Twitter's official embed code.</p>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Just setting up my twttr</p>
-        &mdash; jack (@jack)
-        <a href="https://twitter.com/jack/status/20">March 21, 2006</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <h2>Why Embed Tweets?</h2>
+        <p>Embedding tweets allows you to include interactive social content on your webpage.</p>
 
-    <p>
-        As you can see, the tweet is interactive — you can like, retweet, view comments, and open it on Twitter.
-        This makes your webpage more dynamic and engaging.
-    </p>
+        <h3>Example Tweet</h3>
+        <p>Below is an example of an embedded tweet:</p>
 
-    <!-- Clickable Image -->
-    <a href="https://www.google.com" target="_blank">
-        <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="Clickable Image" width="200">
-    </a>
+        <!-- Embedded Tweet -->
+        <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">Just setting up my twttr</p>
+            &mdash; jack (@jack)
+            <a href="https://twitter.com/jack/status/20">March 21, 2006</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <p>
-        Click the image above to visit an external website. Now here’s a link to return to the homepage:
-    </p>
+        <p>This final paragraph wraps up the explanation and shows that the tweet is interactive.</p>
 
-    <!-- Link back to homepage -->
-    <a href="index.html">Back to Homepage</a>
+        <a href="https://www.google.com" target="_blank">
+            <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="Clickable Image" width="200">
+        </a>
+    </article>
+
+    <aside>
+        <p>placeholder to add comment thread later</p>
+    </aside>
+
+</main>
+
+<footer>
+    <p>Made by Steve - <a href="https://example.com" target="_blank">here</a></p>
+</footer>
 
 </body>
 </html>
